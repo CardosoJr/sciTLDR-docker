@@ -3,5 +3,5 @@ LABEL maintainer="acardosoj@gmail.com"
 COPY requirements.txt ./
 COPY fairseq ./fairseq
 COPY scitldr ./scitldr
-RUN pip3  ./fairseq/install --editable .
-RUN pip3 install -r requirements.txt
+RUN pip  ./fairseq/install --editable .
+RUN pip install -r requirements.txt
